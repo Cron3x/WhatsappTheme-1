@@ -1,0 +1,161 @@
+body {
+    --app-background: #121212!important; /* sfondo wrapper dell'app */
+}
+
+#app {
+    --bg:#161616!important;
+
+    /* menu - generali */
+        --startup-background: #121212; /* sfondo loader - ? */
+        --intro-background: #141414; /* sfondo pannello intro whatsapp web */
+        --panel-background-lighter: #141414; /* sfondo main container dell'app */
+        --menu-profilo: #0d0d0d; /* contenitore sezioni menu profilo */
+        --drawer-section-background: #121212; /* sfondo sezione in contenitore menu profilo */
+        --media-viewer-background: #161616ef; /* media viewer */  
+        --dropdown-background: #212121; /* sfondo menu click destro */
+        --panel-background-colored: #212121; /* sfondo menu self - profile */
+        --drawer-background: #181818; /* sfondo section menu self - settigs */
+        --modal-backdrop: #121212cc; /* overlay menu - self - settings */   
+        --drawer-gallery-background: #161616; /* sfondo messaggi importanti */
+        --drawer-gallery-background-hover: #121212; /* sfondo messaggi importanti hover */
+        --butterbar-default-background: #2a2a2a; /* butterfly wrapper notifiche per messaggi */
+        --butterbar-notification-icon: #181818; /* sfondo icona notifiche messaffi */
+
+    /* header */
+    --panel-header-background: var(--bg);
+    --search-container-background: #141414; /* sfondo ricerca chat - side */
+
+    /* chat - side */
+        --background-default: var(--bg); /*  background */
+        --avatar-placeholder-background: #252525; /* bg No-avatar avatar */
+        --background-default-active: #00968822; /*  active */ 
+        --background-default-hover: #00968808; /*  hover */
+
+    /* chat - conversazione */
+        --conversation-panel-background: #0d0d0d; /* background chat */ --conversation-panel-background-rgb : 13, 13, 13;
+
+        --outgoing-background: #212121;  /* inviati - sfondo messaggi */ --outgoing-background-rgb: 30, 30, 30;
+        --incoming-background: #212121; /* ricevuti - sfondo messaggi */ --incoming-background-rgb: 30, 30, 30;
+        --outgoing-background-deeper: #1a1a1a; /* inviati - sfondo messaggi scuro */--outgoing-background-deeper-rgb: 26, 26, 26;
+        --incoming-background-deeper: #1a1a1a; /* ricevuti - sfondo messaggi scuro */ --incoming-background-deeper-rgb: 26, 26, 26;
+
+        --system-message-background: #2a2a2a88; /* sfondo messaggi di sistema - es. data */
+
+        --rich-text-panel-background: var(--bg); /* sfondo form invio messaggi */
+        --compose-input-background: #121212; /* sfondo input form invio messaggi */
+
+        --panel-input-background: #2a2a2a; /* sfondo input ricerca emoji */
+
+        --unread-bar-background: #1a1a1a44; /* sfondo wtapper barra messaggi non letti */
+        --unread-background: #121212; /* sfondo label barra messaggi non letti*/
+
+}
+
+.dark * {
+    scrollbar-color: #4b4b4b transparent!important;
+    scrollbar-width: none;
+}
+
+
+/* main wrapper */
+html.js.serviceworker.adownload.cssanimations.csstransitions.webp.webp-alpha.webp-animation.webp-lossless body.web.dark div#app div._1ADa8._3Nsgw.app-wrapper-web.os-win div._1XkO3 {
+    border-radius: 15px;
+}
+/* roba ridimensionamento */
+.app-wrapper-web > ._1XkO3 {
+    position: absolute;
+    top: 19px;
+    height: calc(100% - 38px);
+    left: 19px!important;
+    width: calc(100% - 38px)!important;
+}
+@media screen and (max-width: 696px) {
+    .app-wrapper-web ._1XkO3 {
+        min-width: 200px;
+    }
+}
+
+
+
+/* CHAT - SIDE */
+
+    /* wrapper contenitore chat - side */
+    html.js.serviceworker.adownload.cssanimations.csstransitions.webp.webp-alpha.webp-animation.webp-lossless body.web.dark div#app div._1ADa8._3Nsgw.app-wrapper-web.os-win div._1XkO3.two div.ldL67._2i3T7._191H_ div#side._1KDb8 div#pane-side._20c87 div div div._3uIPm.WYyr1 div._3m_Xw{
+        padding: 10px;
+    }
+    /* contenitore chat - side */
+    html.js.serviceworker.adownload.cssanimations.csstransitions.webp.webp-alpha.webp-animation.webp-lossless body.web.dark div#app div._1ADa8._3Nsgw.app-wrapper-web.os-win div._1XkO3.two div.ldL67._2i3T7._191H_ div#side._1KDb8 div#pane-side._20c87 div div div._3uIPm.WYyr1 div._3m_Xw div div._2nY6U {
+        border-radius: 15px;
+        left: 10px;
+        width: calc(100% - 20px);
+        transition: 0.1s;
+    }
+    /* fix padding per contenitore chat - side */
+    html.js.serviceworker.adownload.cssanimations.csstransitions.webp.webp-alpha.webp-animation.webp-lossless body.web.dark div#app div._1ADa8._3Nsgw.app-wrapper-web.os-win div._1XkO3.two div.ldL67._2i3T7._191H_ div#side._1KDb8 div#pane-side._20c87 div div div._3uIPm.WYyr1 div._3m_Xw {
+        padding: 0!important;
+    }
+    /* contenitore chat - side ::after */
+    html.js.serviceworker.adownload.cssanimations.csstransitions.webp.webp-alpha.webp-animation.webp-lossless body.web.dark div#app div._1ADa8._3Nsgw.app-wrapper-web.os-win div._1XkO3.two div.ldL67._2i3T7._191H_ div#side._1KDb8 div#pane-side._20c87 div div div._3uIPm.WYyr1 div._3m_Xw div div._2nY6U._2_TVt::after {
+        display: none;
+    }
+    /* contenitore labels in contenitore chat - side*/
+    html.js.serviceworker.adownload.cssanimations.csstransitions.webp.webp-alpha.webp-animation.webp-lossless body.web.dark div#app div._1ADa8._3Nsgw.app-wrapper-web.os-win div._1XkO3.two div.ldL67._2i3T7._191H_ div#side._1KDb8 div#pane-side._20c87 div div div._3uIPm.WYyr1 div._3m_Xw div div._2nY6U div._3OvU8 {
+        border-top: 0;
+        border-bottom: 1px solid #ffffff11;
+    }
+
+
+
+/* CHAT - CONVERSAZIONI */
+
+    /* messaggio - out - ? */
+    html.js.serviceworker.adownload.cssanimations.csstransitions.webp.webp-alpha.webp-animation.webp-lossless body.web.dark div#app div._1ADa8._3Nsgw.app-wrapper-web.os-win div._1XkO3.two div.ldL67._3sh5K div#main._1fqrG div._1LcQK div.tm2tP.copyable-area div._33LGR div.y8WcF div._2wUmf.message-out {
+        padding-right: 4%;
+    }
+    /* messaggio - in - ? */
+    html.js.serviceworker.adownload.cssanimations.csstransitions.webp.webp-alpha.webp-animation.webp-lossless body.web.dark div#app div._1ADa8._3Nsgw.app-wrapper-web.os-win div._1XkO3.two div.ldL67._3sh5K div#main._1fqrG div._1LcQK div.tm2tP.copyable-area div._33LGR div.y8WcF div._2wUmf.message-in.focusable-list-item {
+        padding-left: 5%;
+    }
+
+    /* span decorazione messaggio aletta */
+    html.js.serviceworker.adownload.cssanimations.csstransitions.webp.webp-alpha.webp-animation.webp-lossless body.web.dark div#app div._1ADa8._3Nsgw.app-wrapper-web.os-win div._1XkO3.two div.ldL67._3sh5K div#main._1fqrG div._1LcQK div.tm2tP.copyable-area div._33LGR div.y8WcF div._2wUmf.focusable-list-item div.cvjcv._1Ilru._8YVHI span._3nrYb {
+        display: none;
+    }
+    /* bordo non arrotondato a messaggi aletta */
+    html[dir="ltr"] .message-in ._8YVHI .Nm1g1, html[dir="ltr"] .message-out ._8YVHI .Nm1g1 {
+        border-radius: 7.5px;
+    }
+
+
+    /* wrapper contenitore form invio msgs*/
+    html.js.serviceworker.adownload.cssanimations.csstransitions.webp.webp-alpha.webp-animation.webp-lossless body.web.dark div#app div._1ADa8._3Nsgw.app-wrapper-web.os-win div._1XkO3.two div.ldL67._3sh5K div#main._1fqrG footer._2cYbV {
+        background-color: transparent;
+    }
+    /* contenitore form invio msgs */
+    html.js.serviceworker.adownload.cssanimations.csstransitions.webp.webp-alpha.webp-animation.webp-lossless body.web.dark div#app div._1ADa8._3Nsgw.app-wrapper-web.os-win div._1XkO3.two div.ldL67._3sh5K div#main._1fqrG footer._2cYbV div._2BU3P.tm2tP.copyable-area {
+        margin: 10px;
+        margin-bottom: 5px;
+        margin-top: 0;
+        border-radius: 15px;
+        border: 0;
+        box-shadow: #000000cc 0 0 10px;
+    }
+
+    
+    /* wrapper contenitore testo risposta */
+    #main > footer > div._3A_K1 > div > div > div > div.a-HbF {
+        margin: 1em;
+        border-radius: 1em;
+        width: calc(100% - 3em)!important;
+        border: 0;
+        box-shadow: black 0 0 10px -2px;
+        padding: 0.5em;
+    }
+
+
+    /* MENU PROFILO */
+
+        /* contenitore sezioni menu profilo */
+        html.js.serviceworker.adownload.cssanimations.csstransitions.webp.webp-alpha.webp-animation.webp-lossless body.web.dark div#app div._1ADa8._3Nsgw.app-wrapper-web.os-win div._1XkO3.three div._3ArsE div.ldL67._1bLj8 span.vXLk5 div._1N4rE span._2J8hu div.nBIOd._2T-Z0.tm2tP.copyable-area div.KPJpj {
+            background: var(--menu-profilo);
+        }

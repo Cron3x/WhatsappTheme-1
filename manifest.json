@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  
+  "name": "WhatsappTheme",
+  "version": "0.1.1",
+  "description": "Simple dark theme for Whatsapp web.",
+  
+  "icons": {
+    "128": "icons/WATheme128.png",
+    "96": "icons/WATheme96.png",
+    "48": "icons/WATheme48.png"
+  },
+
+  "content_scripts": [{
+    "css": ["style.css"],
+    "js": ["esc.js"],
+    "matches": ["https://web.whatsapp.com/"]
+  }]
+  
+}
